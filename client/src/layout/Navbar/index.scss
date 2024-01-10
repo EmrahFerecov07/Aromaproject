@@ -1,0 +1,39 @@
+.navbarbox {
+    display: flex;
+    border: 1px solid black;
+
+    .navbarleft {
+        img {
+            width: 200px;
+           
+        }
+
+    }
+
+    .ulhome {
+        display: flex;
+        gap: 50px;
+        padding-left: 300px;
+        font-size: 25px;
+
+        .homestyle {
+            color: blue;
+
+
+        }
+
+
+
+    }
+
+    .navbarright {
+        padding-left: 200px;
+        gap: 20px;
+        .buy{
+            border-radius: 50px;
+            border: 1px solid lightgrey;
+           
+        }
+
+    }
+}
